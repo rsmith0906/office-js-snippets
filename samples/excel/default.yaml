@@ -1,5 +1,5 @@
-id: excel-custom-functions-basic
-name: Basic custom function
+id: excel-custom-functions-example
+name: Example custom function
 description: Calculates the volume of a sphere.
 host: EXCEL
 api_set:
@@ -7,12 +7,12 @@ api_set:
 script:
     content: |
         /**
-         * Calculates the volume of a sphere. 
+         * Provides an example of creating an custom function. 
          * @customfunction
          * @param {number} radius
          * @returns The volume of the sphere.
          */
-        function sphereVolume(radius) {
+        function exampleFunction(radius) {
           return Math.pow(radius, 3) * 4 * Math.PI / 3;
         }
     language: typescript
