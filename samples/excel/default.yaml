@@ -1,6 +1,6 @@
 id: excel-custom-functions-example
-name: Example custom function
-description: Calculates the volume of a sphere.
+name: New Function
+description: Describe the operation the function will perform
 host: EXCEL
 api_set:
     CustomFunctionsRuntime: 1.1
